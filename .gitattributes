@@ -1,2 +1,78 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<div class="outer-container">
+  <div class="inner-container">
+    <div id="ig-phone">
+      <img src="https://assets.codepen.io/6060109/IG-phone.jpeg" alt="IG-phone">
+    </div>
+
+    <div class="outer-login-wrapper">
+      <div id="login-wrapper">
+        <div id="logo">
+          <h1>Instagram</h1>
+        </div>
+
+        <form>
+          <div class="inner-form">
+            <div class="input-field">
+              <input type="text" required>
+              <span class="placeholder">Phone number, username, and email</span>
+            </div>
+            <div class="input-field">
+              <input type="password" required>
+              <span class="placeholder">Password</span>
+            </div>
+          </div>
+          <input type="button" value="Log In">
+        </form>
+
+        <div id="divider">
+          <div id="left"></div>
+          <div id="center">OR</div>
+          <div id="right"></div>
+        </div>
+
+        <div id="login-creds">
+          <a href="#" id="fb-login"><i class="fab fa-facebook-square fa-lg"></i> <span id="fb">Log in with Facebook</span></a>
+          <a href="#" id="forgot-pw">Forgot password?</a>
+        </div>
+      </div>
+
+      <p id="no-acct">Don't have an account?
+              <a href="#">Sign up</a>
+      </p>
+
+      <div id="app-buttons">
+        <p id="get-the-app">Get the app.</p>
+        <img src="https://assets.codepen.io/6060109/IG-app-store-button.png" alt="" class="buttons" id="ig-app">
+        <img src="https://assets.codepen.io/6060109/IG-Google-Play-Button.png" alt="" class="buttons" id="ig-google">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div id="footer-links">
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Jobs</a>
+    <a href="#">Help</a>
+    <a href="#">API</a>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Top Accounts</a>
+    <a href="#">Hashtags</a>
+    <a href="#">Locations</a>
+  </div>
+
+  <div id="copyright">
+    <p>
+      <select>
+        <option>English</option>
+        <option>English UK</option>
+        <option>Netherlands</option>
+      </select>
+      © 2021 Instagram from Facebook
+    </p>
+  </div>
+</footer>
